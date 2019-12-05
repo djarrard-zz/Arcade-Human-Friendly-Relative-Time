@@ -4,7 +4,7 @@ This expression converts a time field into a relative time display (e.g. 9 days 
 
 ## Use Cases
 
-To create a richer popup experience where temporal data is more easily understand based on when an event occured relative to now.
+To create a richer popup experience where temporal data is more easily understood based on when an event occured relative to now.
 
 ## Workflow
 
