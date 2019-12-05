@@ -1,0 +1,21 @@
+function getTimeDelta(alertDate){
+    var minutes = DateDiff(now(),alertDate, "minutes")
+    var hours = DateDiff(now(),alertDate, "hours")
+    var days = DateDiff(now(),alertDate, "days")
+    if (minutes <= 120){
+        return round(minutes) + " minutes"
+    }
+    if (minutes > 120){
+        if (hours <= 48){
+            var tFloor = floor(hours)
+            var deltaMin = datediff(now(),dateadd(alertDate,tFloor,'hours'),'minutes')
+            return round(tFloor) + " hours and " + round(deltaMin) +  " minutes"
+        }
+        if (hours > 48){
+            var dFloor = floor(days)
+            var deltaHour = datediff(now(),dateadd(alertDate,dFloor,'days'),'hours')
+            return round(dFloor) + " days and " + round(deltaHour) + " hours"
+        }
+    }
+}
+return getTimeDelta($feature["event_time"])
