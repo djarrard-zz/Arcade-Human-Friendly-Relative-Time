@@ -48,4 +48,4 @@ This template assumes some thresholds for desired display that can be tweaked as
 
 ## Example Output
 
-![Relative timestamp](popup.jpg)
+![Relative timestamp](popup.jpg) f
