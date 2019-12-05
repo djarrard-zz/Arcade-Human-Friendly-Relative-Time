@@ -17,7 +17,7 @@ var myDateField = $feature["Date"];
 ```
 
 ## Expression Template
-Below that, paste this Arcade expression. It will do the work convert your date field into a relative timestamp
+Below that, paste this Arcade expression. It will do the work to convert your raw date field into a relative timestamp.
 
 ```js
 function getTimeDelta(alertDate){
