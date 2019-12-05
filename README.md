@@ -48,4 +48,6 @@ This template assumes some thresholds for desired display that can be tweaked as
 
 ## Example Output
 
-![Relative timestamp](popup.jpg) f
+See [this webmap](https://www.arcgis.com/home/webmap/viewer.html?webmap=051536bc755142ec96926015c70a4e59&extent=-123.8599,19.8425,-58.9526,50.0595) for an example of how this looks in a popup.
+
+![Relative timestamp](timestamp.jpg)
